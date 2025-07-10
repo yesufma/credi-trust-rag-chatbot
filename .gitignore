@@ -1,8 +1,10 @@
-data/
-vector_store/
-*.csv
-*.faiss
-*.pt
 __pycache__/
-*.ipynb_checkpoints
+*.pyc
+*.pyo
+*.pyd
 .DS_Store
+.env
+*.csv
+vector_store/
+data/
+.ipynb_checkpoints/
