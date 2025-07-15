@@ -1,4 +1,4 @@
-# 🔍 CrediTrust Financial - RAG-Powered Complaint Analysis Chatbot
+#  CrediTrust Financial - RAG-Powered Complaint Analysis Chatbot
 
 <div align="center">
   
@@ -6,28 +6,28 @@
 
 </div>
 
-## 📌 Project Overview
+##  Project Overview
 This project develops an AI-powered chatbot that analyzes customer complaints to provide actionable insights for CrediTrust Financial. Using Retrieval-Augmented Generation (RAG) technology, it enables product managers to identify complaint trends in seconds rather than days.
 
 **Business Impact**:
-- ⏱️ **Reduced trend identification** time from days to minutes
-- 💡 **Empowered non-technical teams** with self-service insights
-- 🔍 **Shifted from reactive to proactive** issue resolution
-- 📈 **Improved customer satisfaction** through faster response times
+-  **Reduced trend identification** time from days to minutes
+-  **Empowered non-technical teams** with self-service insights
+-  **Shifted from reactive to proactive** issue resolution
+-  **Improved customer satisfaction** through faster response times
 
-## 🧠 Business Challenge
+##  Business Challenge
 CrediTrust Financial receives **thousands of monthly complaints** across five product categories:
-- 💳 Credit Cards
-- 🏦 Personal Loans
-- 🛒 Buy Now, Pay Later (BNPL)
-- 💰 Savings Accounts
-- 🌍 Money Transfers
+-  Credit Cards
+-  Personal Loans
+-  Buy Now, Pay Later (BNPL)
+-  Savings Accounts
+-  Money Transfers
 
 Product managers like Asha spend hours manually reading complaints to identify issues. Our solution provides instant, evidence-backed answers to questions like:
 > "Why are customers unhappy with BNPL?"
 > "What's the top complaint for savings accounts in Kenya?"
 
-## 🛠️ Technical Solution
+##  Technical Solution
 We built a **RAG-powered chatbot** that:
 1. **Retrieves** relevant complaints using semantic search (FAISS/ChromaDB)
 2. **Generates** insights using large language models (Mistral/Llama)
@@ -35,7 +35,7 @@ We built a **RAG-powered chatbot** that:
 
 
 
-## 📂 Project Structure
+##  Project Structure
 ```bash
 
 credi-trust-rag-chatbot/
@@ -85,30 +85,30 @@ from src.plotting import plot_product_distribution
 plt = plot_product_distribution(df_filtered)
 plt.savefig('results/product_distribution.png')
 
-🔍 Key Features
+ Key Features
 Advanced Text Processing:
 
-🧼 Boilerplate removal ("I am writing to complain...")
+ Boilerplate removal ("I am writing to complain...")
 
-📝 Lemmatization and stopword filtering
+ Lemmatization and stopword filtering
 
-🔠 Special character and number handling
+ Special character and number handling
 
 Comprehensive EDA:
 
-📊 Product distribution analysis
+ Product distribution analysis
 
-📏 Narrative length statistics
+ Narrative length statistics
 
-🔍 Data quality assessment
+ Data quality assessment
 
 RAG Pipeline:
 
-🔎 Semantic search with FAISS/ChromaDB
+ Semantic search with FAISS/ChromaDB
 
-💬 LLM-powered insight generation
+ LLM-powered insight generation
 
-📑 Source citation for verification
+ Source citation for verification
 
 📊 Results (Task 1: EDA)
 Complaint Distribution
